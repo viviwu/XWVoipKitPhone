@@ -9,12 +9,69 @@
 /* Begin PBXBuildFile section */
 		0DD2A89D1EFFA02900088EE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A89C1EFFA02900088EE2 /* main.m */; };
 		0DD2A8A01EFFA02900088EE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A89F1EFFA02900088EE2 /* AppDelegate.m */; };
-		0DD2A8A31EFFA02900088EE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A8A21EFFA02900088EE2 /* ViewController.m */; };
 		0DD2A8A61EFFA02900088EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8A41EFFA02900088EE2 /* Main.storyboard */; };
 		0DD2A8A81EFFA02900088EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8A71EFFA02900088EE2 /* Assets.xcassets */; };
 		0DD2A8AB1EFFA02900088EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8A91EFFA02900088EE2 /* LaunchScreen.storyboard */; };
 		0DD2A8B61EFFA02900088EE2 /* XWVoipKitPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A8B51EFFA02900088EE2 /* XWVoipKitPhoneTests.m */; };
 		0DD2A8C11EFFA02900088EE2 /* XWVoipKitPhoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A8C01EFFA02900088EE2 /* XWVoipKitPhoneUITests.m */; };
+		0DD2A8D01EFFA34A00088EE2 /* XWCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A8CF1EFFA34A00088EE2 /* XWCallViewController.m */; };
+		0DD2A8FE1EFFA36100088EE2 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8D31EFFA36100088EE2 /* avatar.jpg */; };
+		0DD2A8FF1EFFA36100088EE2 /* call_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8D41EFFA36100088EE2 /* call_bg@2x.png */; };
+		0DD2A9001EFFA36100088EE2 /* icon_audio_receive_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8D51EFFA36100088EE2 /* icon_audio_receive_normal@2x.png */; };
+		0DD2A9011EFFA36100088EE2 /* icon_audio_receive_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8D61EFFA36100088EE2 /* icon_audio_receive_press@2x.png */; };
+		0DD2A9021EFFA36100088EE2 /* icon_av_audio_micro_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8D71EFFA36100088EE2 /* icon_av_audio_micro_normal@2x.png */; };
+		0DD2A9031EFFA36100088EE2 /* icon_av_audio_micro_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8D81EFFA36100088EE2 /* icon_av_audio_micro_press@2x.png */; };
+		0DD2A9041EFFA36100088EE2 /* icon_av_audio_receive_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8D91EFFA36100088EE2 /* icon_av_audio_receive_normal@2x.png */; };
+		0DD2A9051EFFA36100088EE2 /* icon_av_audio_receive_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8DA1EFFA36100088EE2 /* icon_av_audio_receive_press@2x.png */; };
+		0DD2A9061EFFA36100088EE2 /* icon_av_reply_message_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8DB1EFFA36100088EE2 /* icon_av_reply_message_normal@2x.png */; };
+		0DD2A9071EFFA36100088EE2 /* icon_av_reply_message_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8DC1EFFA36100088EE2 /* icon_av_reply_message_press@2x.png */; };
+		0DD2A9081EFFA36100088EE2 /* icon_avp_camera_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8DD1EFFA36100088EE2 /* icon_avp_camera_white@2x.png */; };
+		0DD2A9091EFFA36100088EE2 /* icon_avp_invite_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8DE1EFFA36100088EE2 /* icon_avp_invite_black@2x.png */; };
+		0DD2A90A1EFFA36100088EE2 /* icon_avp_invite_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8DF1EFFA36100088EE2 /* icon_avp_invite_blue@2x.png */; };
+		0DD2A90B1EFFA36100088EE2 /* icon_avp_invite_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E01EFFA36100088EE2 /* icon_avp_invite_gray@2x.png */; };
+		0DD2A90C1EFFA36100088EE2 /* icon_avp_invite_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E11EFFA36100088EE2 /* icon_avp_invite_white@2x.png */; };
+		0DD2A90D1EFFA36100088EE2 /* icon_avp_loudspeaker_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E21EFFA36100088EE2 /* icon_avp_loudspeaker_black@2x.png */; };
+		0DD2A90E1EFFA36100088EE2 /* icon_avp_loudspeaker_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E31EFFA36100088EE2 /* icon_avp_loudspeaker_blue@2x.png */; };
+		0DD2A90F1EFFA36100088EE2 /* icon_avp_loudspeaker_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E41EFFA36100088EE2 /* icon_avp_loudspeaker_gray@2x.png */; };
+		0DD2A9101EFFA36100088EE2 /* icon_avp_loudspeaker_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E51EFFA36100088EE2 /* icon_avp_loudspeaker_white@2x.png */; };
+		0DD2A9111EFFA36100088EE2 /* icon_avp_mute_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E61EFFA36100088EE2 /* icon_avp_mute_black@2x.png */; };
+		0DD2A9121EFFA36100088EE2 /* icon_avp_mute_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E71EFFA36100088EE2 /* icon_avp_mute_blue@2x.png */; };
+		0DD2A9131EFFA36100088EE2 /* icon_avp_mute_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E81EFFA36100088EE2 /* icon_avp_mute_gray@2x.png */; };
+		0DD2A9141EFFA36100088EE2 /* icon_avp_mute_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8E91EFFA36100088EE2 /* icon_avp_mute_white@2x.png */; };
+		0DD2A9151EFFA36100088EE2 /* icon_avp_reduce_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8EA1EFFA36100088EE2 /* icon_avp_reduce_black@2x.png */; };
+		0DD2A9161EFFA36100088EE2 /* icon_avp_reduce_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8EB1EFFA36100088EE2 /* icon_avp_reduce_blue@2x.png */; };
+		0DD2A9171EFFA36100088EE2 /* icon_avp_reduce_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8EC1EFFA36100088EE2 /* icon_avp_reduce_gray@2x.png */; };
+		0DD2A9181EFFA36100088EE2 /* icon_avp_reduce_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8ED1EFFA36100088EE2 /* icon_avp_reduce_white@2x.png */; };
+		0DD2A9191EFFA36100088EE2 /* icon_avp_video_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8EE1EFFA36100088EE2 /* icon_avp_video_black@2x.png */; };
+		0DD2A91A1EFFA36100088EE2 /* icon_avp_video_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8EF1EFFA36100088EE2 /* icon_avp_video_blue@2x.png */; };
+		0DD2A91B1EFFA36100088EE2 /* icon_avp_video_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F01EFFA36100088EE2 /* icon_avp_video_gray@2x.png */; };
+		0DD2A91C1EFFA36100088EE2 /* icon_avp_video_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F11EFFA36100088EE2 /* icon_avp_video_white@2x.png */; };
+		0DD2A91D1EFFA36100088EE2 /* icon_call_reject_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F21EFFA36100088EE2 /* icon_call_reject_normal@2x.png */; };
+		0DD2A91E1EFFA36100088EE2 /* icon_call_reject_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F31EFFA36100088EE2 /* icon_call_reject_press@2x.png */; };
+		0DD2A91F1EFFA36100088EE2 /* im_skin_icon_audiocall_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F41EFFA36100088EE2 /* im_skin_icon_audiocall_bg.jpg */; };
+		0DD2A9201EFFA36100088EE2 /* view_audio_reply_message_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F51EFFA36100088EE2 /* view_audio_reply_message_bg@2x.png */; };
+		0DD2A9211EFFA36100088EE2 /* wpa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F61EFFA36100088EE2 /* wpa.jpg */; };
+		0DD2A9221EFFA36100088EE2 /* wpb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F71EFFA36100088EE2 /* wpb.jpg */; };
+		0DD2A9231EFFA36100088EE2 /* XWCallButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A8F91EFFA36100088EE2 /* XWCallButton.m */; };
+		0DD2A9241EFFA36100088EE2 /* XWCallKeypad.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A8FB1EFFA36100088EE2 /* XWCallKeypad.m */; };
+		0DD2A9251EFFA36100088EE2 /* XWCallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD2A8FD1EFFA36100088EE2 /* XWCallView.m */; };
+		0DD2A9291EFFA39800088EE2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9271EFFA39800088EE2 /* AudioToolbox.framework */; };
+		0DD2A92C1EFFA3A900088EE2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A92B1EFFA3A900088EE2 /* SystemConfiguration.framework */; };
+		0DD2A92E1EFFA3B400088EE2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A92D1EFFA3B400088EE2 /* CoreTelephony.framework */; };
+		0DD2A9331EFFA3E000088EE2 /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A92F1EFFA3E000088EE2 /* libc++.1.tbd */; };
+		0DD2A9341EFFA3E000088EE2 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9301EFFA3E000088EE2 /* libc++.tbd */; };
+		0DD2A9351EFFA3E000088EE2 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9311EFFA3E000088EE2 /* libstdc++.6.tbd */; };
+		0DD2A9361EFFA3E000088EE2 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9321EFFA3E000088EE2 /* libstdc++.tbd */; };
+		0DD2A9391EFFA3FB00088EE2 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9371EFFA3FB00088EE2 /* libiconv.tbd */; };
+		0DD2A93A1EFFA3FB00088EE2 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9381EFFA3FB00088EE2 /* libicucore.tbd */; };
+		0DD2A93C1EFFA40A00088EE2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A93B1EFFA40A00088EE2 /* libxml2.tbd */; };
+		0DD2A93E1EFFA41100088EE2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A93D1EFFA41100088EE2 /* libz.tbd */; };
+		0DD2A9401EFFA41E00088EE2 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A93F1EFFA41E00088EE2 /* libresolv.tbd */; };
+		0DD2A9421EFFA42500088EE2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9411EFFA42500088EE2 /* libsqlite3.tbd */; };
+		0DD2A9441EFFA43100088EE2 /* XWVoipKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9431EFFA43100088EE2 /* XWVoipKit.framework */; };
+		0DD2A9481EFFA47100088EE2 /* XWVoipKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0DD2A9471EFFA47100088EE2 /* XWVoipKit.bundle */; };
+		0DD2A94A1EFFA52A00088EE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A9491EFFA52A00088EE2 /* UIKit.framework */; };
+		0DD2A94C1EFFA53100088EE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD2A94B1EFFA53100088EE2 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +96,6 @@
 		0DD2A89C1EFFA02900088EE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0DD2A89E1EFFA02900088EE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DD2A89F1EFFA02900088EE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0DD2A8A11EFFA02900088EE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0DD2A8A21EFFA02900088EE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0DD2A8A51EFFA02900088EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0DD2A8A71EFFA02900088EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD2A8AA1EFFA02900088EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +106,70 @@
 		0DD2A8BC1EFFA02900088EE2 /* XWVoipKitPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWVoipKitPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD2A8C01EFFA02900088EE2 /* XWVoipKitPhoneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XWVoipKitPhoneUITests.m; sourceTree = "<group>"; };
 		0DD2A8C21EFFA02900088EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD2A8CE1EFFA34A00088EE2 /* XWCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCallViewController.h; sourceTree = "<group>"; };
+		0DD2A8CF1EFFA34A00088EE2 /* XWCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCallViewController.m; sourceTree = "<group>"; };
+		0DD2A8D31EFFA36100088EE2 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		0DD2A8D41EFFA36100088EE2 /* call_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_bg@2x.png"; sourceTree = "<group>"; };
+		0DD2A8D51EFFA36100088EE2 /* icon_audio_receive_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_audio_receive_normal@2x.png"; sourceTree = "<group>"; };
+		0DD2A8D61EFFA36100088EE2 /* icon_audio_receive_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_audio_receive_press@2x.png"; sourceTree = "<group>"; };
+		0DD2A8D71EFFA36100088EE2 /* icon_av_audio_micro_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_av_audio_micro_normal@2x.png"; sourceTree = "<group>"; };
+		0DD2A8D81EFFA36100088EE2 /* icon_av_audio_micro_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_av_audio_micro_press@2x.png"; sourceTree = "<group>"; };
+		0DD2A8D91EFFA36100088EE2 /* icon_av_audio_receive_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_av_audio_receive_normal@2x.png"; sourceTree = "<group>"; };
+		0DD2A8DA1EFFA36100088EE2 /* icon_av_audio_receive_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_av_audio_receive_press@2x.png"; sourceTree = "<group>"; };
+		0DD2A8DB1EFFA36100088EE2 /* icon_av_reply_message_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_av_reply_message_normal@2x.png"; sourceTree = "<group>"; };
+		0DD2A8DC1EFFA36100088EE2 /* icon_av_reply_message_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_av_reply_message_press@2x.png"; sourceTree = "<group>"; };
+		0DD2A8DD1EFFA36100088EE2 /* icon_avp_camera_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_camera_white@2x.png"; sourceTree = "<group>"; };
+		0DD2A8DE1EFFA36100088EE2 /* icon_avp_invite_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_invite_black@2x.png"; sourceTree = "<group>"; };
+		0DD2A8DF1EFFA36100088EE2 /* icon_avp_invite_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_invite_blue@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E01EFFA36100088EE2 /* icon_avp_invite_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_invite_gray@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E11EFFA36100088EE2 /* icon_avp_invite_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_invite_white@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E21EFFA36100088EE2 /* icon_avp_loudspeaker_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_loudspeaker_black@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E31EFFA36100088EE2 /* icon_avp_loudspeaker_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_loudspeaker_blue@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E41EFFA36100088EE2 /* icon_avp_loudspeaker_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_loudspeaker_gray@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E51EFFA36100088EE2 /* icon_avp_loudspeaker_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_loudspeaker_white@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E61EFFA36100088EE2 /* icon_avp_mute_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_mute_black@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E71EFFA36100088EE2 /* icon_avp_mute_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_mute_blue@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E81EFFA36100088EE2 /* icon_avp_mute_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_mute_gray@2x.png"; sourceTree = "<group>"; };
+		0DD2A8E91EFFA36100088EE2 /* icon_avp_mute_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_mute_white@2x.png"; sourceTree = "<group>"; };
+		0DD2A8EA1EFFA36100088EE2 /* icon_avp_reduce_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_reduce_black@2x.png"; sourceTree = "<group>"; };
+		0DD2A8EB1EFFA36100088EE2 /* icon_avp_reduce_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_reduce_blue@2x.png"; sourceTree = "<group>"; };
+		0DD2A8EC1EFFA36100088EE2 /* icon_avp_reduce_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_reduce_gray@2x.png"; sourceTree = "<group>"; };
+		0DD2A8ED1EFFA36100088EE2 /* icon_avp_reduce_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_reduce_white@2x.png"; sourceTree = "<group>"; };
+		0DD2A8EE1EFFA36100088EE2 /* icon_avp_video_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_video_black@2x.png"; sourceTree = "<group>"; };
+		0DD2A8EF1EFFA36100088EE2 /* icon_avp_video_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_video_blue@2x.png"; sourceTree = "<group>"; };
+		0DD2A8F01EFFA36100088EE2 /* icon_avp_video_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_video_gray@2x.png"; sourceTree = "<group>"; };
+		0DD2A8F11EFFA36100088EE2 /* icon_avp_video_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_avp_video_white@2x.png"; sourceTree = "<group>"; };
+		0DD2A8F21EFFA36100088EE2 /* icon_call_reject_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_call_reject_normal@2x.png"; sourceTree = "<group>"; };
+		0DD2A8F31EFFA36100088EE2 /* icon_call_reject_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_call_reject_press@2x.png"; sourceTree = "<group>"; };
+		0DD2A8F41EFFA36100088EE2 /* im_skin_icon_audiocall_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = im_skin_icon_audiocall_bg.jpg; sourceTree = "<group>"; };
+		0DD2A8F51EFFA36100088EE2 /* view_audio_reply_message_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "view_audio_reply_message_bg@2x.png"; sourceTree = "<group>"; };
+		0DD2A8F61EFFA36100088EE2 /* wpa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpa.jpg; sourceTree = "<group>"; };
+		0DD2A8F71EFFA36100088EE2 /* wpb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wpb.jpg; sourceTree = "<group>"; };
+		0DD2A8F81EFFA36100088EE2 /* XWCallButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCallButton.h; sourceTree = "<group>"; };
+		0DD2A8F91EFFA36100088EE2 /* XWCallButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCallButton.m; sourceTree = "<group>"; };
+		0DD2A8FA1EFFA36100088EE2 /* XWCallKeypad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCallKeypad.h; sourceTree = "<group>"; };
+		0DD2A8FB1EFFA36100088EE2 /* XWCallKeypad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCallKeypad.m; sourceTree = "<group>"; };
+		0DD2A8FC1EFFA36100088EE2 /* XWCallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWCallView.h; sourceTree = "<group>"; };
+		0DD2A8FD1EFFA36100088EE2 /* XWCallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWCallView.m; sourceTree = "<group>"; };
+		0DD2A9271EFFA39800088EE2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0DD2A9281EFFA39800088EE2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0DD2A92B1EFFA3A900088EE2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0DD2A92D1EFFA3B400088EE2 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0DD2A92F1EFFA3E000088EE2 /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+		0DD2A9301EFFA3E000088EE2 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0DD2A9311EFFA3E000088EE2 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		0DD2A9321EFFA3E000088EE2 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		0DD2A9371EFFA3FB00088EE2 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		0DD2A9381EFFA3FB00088EE2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		0DD2A93B1EFFA40A00088EE2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		0DD2A93D1EFFA41100088EE2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0DD2A93F1EFFA41E00088EE2 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		0DD2A9411EFFA42500088EE2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0DD2A9431EFFA43100088EE2 /* XWVoipKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XWVoipKit.framework; sourceTree = "<group>"; };
+		0DD2A9471EFFA47100088EE2 /* XWVoipKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XWVoipKit.bundle; sourceTree = SOURCE_ROOT; };
+		0DD2A9491EFFA52A00088EE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DD2A94B1EFFA53100088EE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DD2A94D1EFFA60900088EE2 /* XWVoipKitPhone.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XWVoipKitPhone.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +177,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD2A94C1EFFA53100088EE2 /* Foundation.framework in Frameworks */,
+				0DD2A94A1EFFA52A00088EE2 /* UIKit.framework in Frameworks */,
+				0DD2A9441EFFA43100088EE2 /* XWVoipKit.framework in Frameworks */,
+				0DD2A9421EFFA42500088EE2 /* libsqlite3.tbd in Frameworks */,
+				0DD2A9401EFFA41E00088EE2 /* libresolv.tbd in Frameworks */,
+				0DD2A93E1EFFA41100088EE2 /* libz.tbd in Frameworks */,
+				0DD2A93C1EFFA40A00088EE2 /* libxml2.tbd in Frameworks */,
+				0DD2A9391EFFA3FB00088EE2 /* libiconv.tbd in Frameworks */,
+				0DD2A93A1EFFA3FB00088EE2 /* libicucore.tbd in Frameworks */,
+				0DD2A9331EFFA3E000088EE2 /* libc++.1.tbd in Frameworks */,
+				0DD2A9341EFFA3E000088EE2 /* libc++.tbd in Frameworks */,
+				0DD2A9351EFFA3E000088EE2 /* libstdc++.6.tbd in Frameworks */,
+				0DD2A9361EFFA3E000088EE2 /* libstdc++.tbd in Frameworks */,
+				0DD2A92E1EFFA3B400088EE2 /* CoreTelephony.framework in Frameworks */,
+				0DD2A92C1EFFA3A900088EE2 /* SystemConfiguration.framework in Frameworks */,
+				0DD2A9291EFFA39800088EE2 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +220,7 @@
 				0DD2A8B41EFFA02900088EE2 /* XWVoipKitPhoneTests */,
 				0DD2A8BF1EFFA02900088EE2 /* XWVoipKitPhoneUITests */,
 				0DD2A8991EFFA02900088EE2 /* Products */,
+				0DD2A9261EFFA39800088EE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +237,17 @@
 		0DD2A89A1EFFA02900088EE2 /* XWVoipKitPhone */ = {
 			isa = PBXGroup;
 			children = (
+				0DD2A94D1EFFA60900088EE2 /* XWVoipKitPhone.entitlements */,
 				0DD2A89E1EFFA02900088EE2 /* AppDelegate.h */,
 				0DD2A89F1EFFA02900088EE2 /* AppDelegate.m */,
-				0DD2A8A11EFFA02900088EE2 /* ViewController.h */,
-				0DD2A8A21EFFA02900088EE2 /* ViewController.m */,
+				0DD2A8CE1EFFA34A00088EE2 /* XWCallViewController.h */,
+				0DD2A8CF1EFFA34A00088EE2 /* XWCallViewController.m */,
+				0DD2A8D11EFFA36100088EE2 /* XWCallUI */,
 				0DD2A8A41EFFA02900088EE2 /* Main.storyboard */,
 				0DD2A8A71EFFA02900088EE2 /* Assets.xcassets */,
 				0DD2A8A91EFFA02900088EE2 /* LaunchScreen.storyboard */,
 				0DD2A8AC1EFFA02900088EE2 /* Info.plist */,
+				0DD2A9471EFFA47100088EE2 /* XWVoipKit.bundle */,
 				0DD2A89B1EFFA02900088EE2 /* Supporting Files */,
 			);
 			path = XWVoipKitPhone;
@@ -138,6 +277,88 @@
 				0DD2A8C21EFFA02900088EE2 /* Info.plist */,
 			);
 			path = XWVoipKitPhoneUITests;
+			sourceTree = "<group>";
+		};
+		0DD2A8D11EFFA36100088EE2 /* XWCallUI */ = {
+			isa = PBXGroup;
+			children = (
+				0DD2A8D21EFFA36100088EE2 /* icons */,
+				0DD2A8F81EFFA36100088EE2 /* XWCallButton.h */,
+				0DD2A8F91EFFA36100088EE2 /* XWCallButton.m */,
+				0DD2A8FA1EFFA36100088EE2 /* XWCallKeypad.h */,
+				0DD2A8FB1EFFA36100088EE2 /* XWCallKeypad.m */,
+				0DD2A8FC1EFFA36100088EE2 /* XWCallView.h */,
+				0DD2A8FD1EFFA36100088EE2 /* XWCallView.m */,
+			);
+			path = XWCallUI;
+			sourceTree = "<group>";
+		};
+		0DD2A8D21EFFA36100088EE2 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				0DD2A8D31EFFA36100088EE2 /* avatar.jpg */,
+				0DD2A8D41EFFA36100088EE2 /* call_bg@2x.png */,
+				0DD2A8D51EFFA36100088EE2 /* icon_audio_receive_normal@2x.png */,
+				0DD2A8D61EFFA36100088EE2 /* icon_audio_receive_press@2x.png */,
+				0DD2A8D71EFFA36100088EE2 /* icon_av_audio_micro_normal@2x.png */,
+				0DD2A8D81EFFA36100088EE2 /* icon_av_audio_micro_press@2x.png */,
+				0DD2A8D91EFFA36100088EE2 /* icon_av_audio_receive_normal@2x.png */,
+				0DD2A8DA1EFFA36100088EE2 /* icon_av_audio_receive_press@2x.png */,
+				0DD2A8DB1EFFA36100088EE2 /* icon_av_reply_message_normal@2x.png */,
+				0DD2A8DC1EFFA36100088EE2 /* icon_av_reply_message_press@2x.png */,
+				0DD2A8DD1EFFA36100088EE2 /* icon_avp_camera_white@2x.png */,
+				0DD2A8DE1EFFA36100088EE2 /* icon_avp_invite_black@2x.png */,
+				0DD2A8DF1EFFA36100088EE2 /* icon_avp_invite_blue@2x.png */,
+				0DD2A8E01EFFA36100088EE2 /* icon_avp_invite_gray@2x.png */,
+				0DD2A8E11EFFA36100088EE2 /* icon_avp_invite_white@2x.png */,
+				0DD2A8E21EFFA36100088EE2 /* icon_avp_loudspeaker_black@2x.png */,
+				0DD2A8E31EFFA36100088EE2 /* icon_avp_loudspeaker_blue@2x.png */,
+				0DD2A8E41EFFA36100088EE2 /* icon_avp_loudspeaker_gray@2x.png */,
+				0DD2A8E51EFFA36100088EE2 /* icon_avp_loudspeaker_white@2x.png */,
+				0DD2A8E61EFFA36100088EE2 /* icon_avp_mute_black@2x.png */,
+				0DD2A8E71EFFA36100088EE2 /* icon_avp_mute_blue@2x.png */,
+				0DD2A8E81EFFA36100088EE2 /* icon_avp_mute_gray@2x.png */,
+				0DD2A8E91EFFA36100088EE2 /* icon_avp_mute_white@2x.png */,
+				0DD2A8EA1EFFA36100088EE2 /* icon_avp_reduce_black@2x.png */,
+				0DD2A8EB1EFFA36100088EE2 /* icon_avp_reduce_blue@2x.png */,
+				0DD2A8EC1EFFA36100088EE2 /* icon_avp_reduce_gray@2x.png */,
+				0DD2A8ED1EFFA36100088EE2 /* icon_avp_reduce_white@2x.png */,
+				0DD2A8EE1EFFA36100088EE2 /* icon_avp_video_black@2x.png */,
+				0DD2A8EF1EFFA36100088EE2 /* icon_avp_video_blue@2x.png */,
+				0DD2A8F01EFFA36100088EE2 /* icon_avp_video_gray@2x.png */,
+				0DD2A8F11EFFA36100088EE2 /* icon_avp_video_white@2x.png */,
+				0DD2A8F21EFFA36100088EE2 /* icon_call_reject_normal@2x.png */,
+				0DD2A8F31EFFA36100088EE2 /* icon_call_reject_press@2x.png */,
+				0DD2A8F41EFFA36100088EE2 /* im_skin_icon_audiocall_bg.jpg */,
+				0DD2A8F51EFFA36100088EE2 /* view_audio_reply_message_bg@2x.png */,
+				0DD2A8F61EFFA36100088EE2 /* wpa.jpg */,
+				0DD2A8F71EFFA36100088EE2 /* wpb.jpg */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		0DD2A9261EFFA39800088EE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD2A94B1EFFA53100088EE2 /* Foundation.framework */,
+				0DD2A9491EFFA52A00088EE2 /* UIKit.framework */,
+				0DD2A9431EFFA43100088EE2 /* XWVoipKit.framework */,
+				0DD2A9411EFFA42500088EE2 /* libsqlite3.tbd */,
+				0DD2A93F1EFFA41E00088EE2 /* libresolv.tbd */,
+				0DD2A93D1EFFA41100088EE2 /* libz.tbd */,
+				0DD2A93B1EFFA40A00088EE2 /* libxml2.tbd */,
+				0DD2A9371EFFA3FB00088EE2 /* libiconv.tbd */,
+				0DD2A9381EFFA3FB00088EE2 /* libicucore.tbd */,
+				0DD2A92F1EFFA3E000088EE2 /* libc++.1.tbd */,
+				0DD2A9301EFFA3E000088EE2 /* libc++.tbd */,
+				0DD2A9311EFFA3E000088EE2 /* libstdc++.6.tbd */,
+				0DD2A9321EFFA3E000088EE2 /* libstdc++.tbd */,
+				0DD2A92D1EFFA3B400088EE2 /* CoreTelephony.framework */,
+				0DD2A92B1EFFA3A900088EE2 /* SystemConfiguration.framework */,
+				0DD2A9271EFFA39800088EE2 /* AudioToolbox.framework */,
+				0DD2A9281EFFA39800088EE2 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +428,16 @@
 				TargetAttributes = {
 					0DD2A8971EFFA02900088EE2 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3WV7R4EVUN;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					0DD2A8B01EFFA02900088EE2 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -246,9 +476,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD2A9041EFFA36100088EE2 /* icon_av_audio_receive_normal@2x.png in Resources */,
+				0DD2A9101EFFA36100088EE2 /* icon_avp_loudspeaker_white@2x.png in Resources */,
+				0DD2A9171EFFA36100088EE2 /* icon_avp_reduce_gray@2x.png in Resources */,
+				0DD2A91A1EFFA36100088EE2 /* icon_avp_video_blue@2x.png in Resources */,
+				0DD2A9141EFFA36100088EE2 /* icon_avp_mute_white@2x.png in Resources */,
+				0DD2A8FE1EFFA36100088EE2 /* avatar.jpg in Resources */,
+				0DD2A9061EFFA36100088EE2 /* icon_av_reply_message_normal@2x.png in Resources */,
 				0DD2A8AB1EFFA02900088EE2 /* LaunchScreen.storyboard in Resources */,
+				0DD2A9081EFFA36100088EE2 /* icon_avp_camera_white@2x.png in Resources */,
+				0DD2A9071EFFA36100088EE2 /* icon_av_reply_message_press@2x.png in Resources */,
+				0DD2A9481EFFA47100088EE2 /* XWVoipKit.bundle in Resources */,
+				0DD2A91B1EFFA36100088EE2 /* icon_avp_video_gray@2x.png in Resources */,
+				0DD2A9151EFFA36100088EE2 /* icon_avp_reduce_black@2x.png in Resources */,
+				0DD2A9051EFFA36100088EE2 /* icon_av_audio_receive_press@2x.png in Resources */,
+				0DD2A9011EFFA36100088EE2 /* icon_audio_receive_press@2x.png in Resources */,
+				0DD2A9191EFFA36100088EE2 /* icon_avp_video_black@2x.png in Resources */,
+				0DD2A90C1EFFA36100088EE2 /* icon_avp_invite_white@2x.png in Resources */,
+				0DD2A91D1EFFA36100088EE2 /* icon_call_reject_normal@2x.png in Resources */,
+				0DD2A9091EFFA36100088EE2 /* icon_avp_invite_black@2x.png in Resources */,
+				0DD2A91E1EFFA36100088EE2 /* icon_call_reject_press@2x.png in Resources */,
+				0DD2A9161EFFA36100088EE2 /* icon_avp_reduce_blue@2x.png in Resources */,
+				0DD2A90E1EFFA36100088EE2 /* icon_avp_loudspeaker_blue@2x.png in Resources */,
+				0DD2A9001EFFA36100088EE2 /* icon_audio_receive_normal@2x.png in Resources */,
+				0DD2A91F1EFFA36100088EE2 /* im_skin_icon_audiocall_bg.jpg in Resources */,
+				0DD2A9221EFFA36100088EE2 /* wpb.jpg in Resources */,
+				0DD2A9181EFFA36100088EE2 /* icon_avp_reduce_white@2x.png in Resources */,
+				0DD2A9211EFFA36100088EE2 /* wpa.jpg in Resources */,
+				0DD2A9201EFFA36100088EE2 /* view_audio_reply_message_bg@2x.png in Resources */,
+				0DD2A90B1EFFA36100088EE2 /* icon_avp_invite_gray@2x.png in Resources */,
+				0DD2A9121EFFA36100088EE2 /* icon_avp_mute_blue@2x.png in Resources */,
+				0DD2A9111EFFA36100088EE2 /* icon_avp_mute_black@2x.png in Resources */,
+				0DD2A90F1EFFA36100088EE2 /* icon_avp_loudspeaker_gray@2x.png in Resources */,
 				0DD2A8A81EFFA02900088EE2 /* Assets.xcassets in Resources */,
+				0DD2A9021EFFA36100088EE2 /* icon_av_audio_micro_normal@2x.png in Resources */,
+				0DD2A91C1EFFA36100088EE2 /* icon_avp_video_white@2x.png in Resources */,
+				0DD2A90A1EFFA36100088EE2 /* icon_avp_invite_blue@2x.png in Resources */,
+				0DD2A9031EFFA36100088EE2 /* icon_av_audio_micro_press@2x.png in Resources */,
+				0DD2A8FF1EFFA36100088EE2 /* call_bg@2x.png in Resources */,
+				0DD2A90D1EFFA36100088EE2 /* icon_avp_loudspeaker_black@2x.png in Resources */,
 				0DD2A8A61EFFA02900088EE2 /* Main.storyboard in Resources */,
+				0DD2A9131EFFA36100088EE2 /* icon_avp_mute_gray@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +541,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DD2A8A31EFFA02900088EE2 /* ViewController.m in Sources */,
+				0DD2A9231EFFA36100088EE2 /* XWCallButton.m in Sources */,
+				0DD2A9251EFFA36100088EE2 /* XWCallView.m in Sources */,
 				0DD2A8A01EFFA02900088EE2 /* AppDelegate.m in Sources */,
 				0DD2A89D1EFFA02900088EE2 /* main.m in Sources */,
+				0DD2A8D01EFFA34A00088EE2 /* XWCallViewController.m in Sources */,
+				0DD2A9241EFFA36100088EE2 /* XWCallKeypad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,9 +697,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XWVoipKitPhone/XWVoipKitPhone.entitlements;
+				DEVELOPMENT_TEAM = 3WV7R4EVUN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = XWVoipKitPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = XW.XWVoipKitPhone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivi.voiphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -437,9 +719,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XWVoipKitPhone/XWVoipKitPhone.entitlements;
+				DEVELOPMENT_TEAM = 3WV7R4EVUN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = XWVoipKitPhone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = XW.XWVoipKitPhone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vivi.voiphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -509,6 +802,7 @@
 				0DD2A8C71EFFA02900088EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DD2A8C81EFFA02900088EE2 /* Build configuration list for PBXNativeTarget "XWVoipKitPhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +811,7 @@
 				0DD2A8CA1EFFA02900088EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0DD2A8CB1EFFA02900088EE2 /* Build configuration list for PBXNativeTarget "XWVoipKitPhoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +820,7 @@
 				0DD2A8CD1EFFA02900088EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

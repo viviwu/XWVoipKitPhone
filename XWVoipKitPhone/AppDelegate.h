@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <XWVoipKit/XWVoipCenter.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

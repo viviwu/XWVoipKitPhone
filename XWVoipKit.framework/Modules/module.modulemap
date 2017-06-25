@@ -1,0 +1,6 @@
+framework module XWVoipKit {
+  umbrella header "XWVoipKit.h"
+
+  export *
+  module * { export * }
+}
